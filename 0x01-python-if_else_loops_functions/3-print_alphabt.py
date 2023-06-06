@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for letter in "abcdfghijklmnoprstuvwxyz":
-    print(letter, end="")
+for i in range(ord('a'), ord("z")+1):
+    if chr(i) not in ['q', 'e']:
+        print("{0}" .format(chr(i)), end="")

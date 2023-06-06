@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for letter in "abcdefghijklmnopqrstuvwxyz":
-    print(letter, end="")
+for i in range(ord('a'), ord('z')):
+    print("{0}" .format(chr(i)), end="")
