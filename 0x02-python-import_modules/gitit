@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "automated commit in 0x02 - python import and modules"
+git push
