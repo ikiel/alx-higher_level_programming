@@ -4,4 +4,4 @@ if __name__ == '__main__':
     n = dir(variable_load_5)
     for i in range (0, len(n)):
         if n[i] == 'a':
-            print(n[i])
+            print(variable_load_5.a)
