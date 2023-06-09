@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "automated commit for Python-data structures"
+git push
