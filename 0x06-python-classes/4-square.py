@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""create a square class to access and update private attribute"""
+"""define a square class to access and update private attribute"""
 
 
 class Square:
@@ -15,11 +15,11 @@ class Square:
     @size.setter
     def size(self, value):
         """setter method for size"""
-        self.__size = value
         if type(size) is not int:
             raise TypeError("size must be an integer")
         if size < 0:
             raise ValueError("size must be >= 0")
+        self.__size = value
 
     @property
     def size(self):
