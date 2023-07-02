@@ -4,6 +4,7 @@
 advanced task
 """
 
+
 class MagicClass:
     """MagicClass"""
     def __init__(self, radius):
