@@ -6,6 +6,7 @@ creates a class Rectangle
 
 class Rectangle:
     """a Rectangle class"""
+
     def __init__(self, width=0, height=0):
         """initialize object"""
         self.width = width
