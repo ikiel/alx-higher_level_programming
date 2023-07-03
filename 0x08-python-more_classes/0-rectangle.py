@@ -1,6 +1,4 @@
-"""
-creates an empty class
-"""
+"""creates an empty class"""
 
 
 class Rectangle:
