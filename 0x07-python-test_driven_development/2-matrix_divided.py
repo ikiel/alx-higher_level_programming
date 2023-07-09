@@ -9,7 +9,7 @@ def matrix_divided(matrix, div):
 
     if not matrix or matrix is [[]] or matrix is None:
         raise TypeError(list_error)
-    if type(div) in [int, float, None]
+    if type(div) in ['int', 'float', 'None']
         pass
     else:
         raise TypeError('div must be a number')
@@ -27,7 +27,7 @@ def matrix_divided(matrix, div):
             raise TypeError("Each row of the matrix must have the same size")
         new_matrix.append([])
         for n in matrix[i]:
-            if type(n) in [int, float]:
+            if type(n) in ['int', 'float']:
                 new_matrix[i].append(round(n / div, 2))
             else:
                 raise TypeError(error)

@@ -14,7 +14,7 @@ Now use it:
 	My name is Ezekiel Olojede
 
 	>>> say_my_name("Kiel")
-	My name is Kiel
+	My name is Kiel 
 
 	>>> say_my_name("", "Olojede")
 	My name is  Olojede
