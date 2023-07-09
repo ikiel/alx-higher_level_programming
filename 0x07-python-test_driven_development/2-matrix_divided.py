@@ -1,9 +1,19 @@
 #!/usr/bin/python3
-"""A function that divides all elements of a matrix"""
+
+"""
+This module contains function matrix divided
+A function that divides all elements of a matrix
+"""
 
 
 def matrix_divided(matrix, div):
-    """divides all elements of a matrix"""
+    """
+    Divides all elements of a matrix
+    Returns a new matrix
+    Args:
+    matrix(list) :  list of lists of integers or floats.
+    div(int, float) : divider >= 0
+    """
     new_matrix =[]
     list_error = "matrix must be a matrix (list of lists) of integeres or floats"
 
