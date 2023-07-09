@@ -14,12 +14,13 @@ def matrix_divided(matrix, div):
     matrix(list) :  list of lists of integers or floats.
     div(int, float) : divider >= 0
     """
-    new_matrix =[]
-    list_error = "matrix must be a matrix (list of lists) of integeres or floats"
+
+    new_matrix = []
+    error = "matrix must be a matrix (list of lists) of integeres or floats"
 
     if not matrix or matrix is [[]] or matrix is None:
-        raise TypeError(list_error)
-    if type(div) in ['int', 'float', 'None']
+        raise TypeError(error)
+    if type(div) in ['int', 'float', 'None']:
         pass
     else:
         raise TypeError('div must be a number')
@@ -30,7 +31,7 @@ def matrix_divided(matrix, div):
     if matrix[0]:
         length = len(matrix[0])
     else:
-        raise TypeError(list_error)
+        raise TypeError(error)
 
     for i in range(len(matrix)):
         if len(matrix[i]) == length:
