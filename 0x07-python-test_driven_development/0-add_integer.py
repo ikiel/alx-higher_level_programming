@@ -3,6 +3,7 @@
 A function that adds two integers a and b
 """
 
+
 def add_integer(a, b=98):
     """adds two integers"""
     if type(a) not in [int, float]:
