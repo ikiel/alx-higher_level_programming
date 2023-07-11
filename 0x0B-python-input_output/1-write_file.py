@@ -4,6 +4,6 @@
 
 
 def write_file(filename="", text=""):
-    """This function writes text to a file an returns number of bytes written"""
+    """This function writes text to a file"""
     with open(filename, 'w', encoding='UTF8') as file:
         return file.write(text)
